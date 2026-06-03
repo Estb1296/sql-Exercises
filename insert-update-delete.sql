@@ -29,6 +29,8 @@ WHERE ProductID = 78;
 DELETE FROM Suppliers
 WHERE SupplierID = 30;
 
-SELECT * FROM northwind.Products;
+SELECT * 
+FROM Products;
 
-SELECT * FROM northwind.Suppliers;
+SELECT * 
+FROM Suppliers;

@@ -18,4 +18,4 @@ WHERE EmployeeID = (SELECT EmployeeID FROM northwind.Orders WHERE OrderID = 1026
 
 SELECT *
 FROM Customers
-WHERE CustomerID = (SELECT CUstomerID FROM northwind.Orders WHERE OrderID = 10266);
+WHERE CustomerID = (SELECT CustomerID FROM northwind.Orders WHERE OrderID = 10266);

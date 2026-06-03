@@ -1,5 +1,5 @@
-INSERT INTO Products(ProductName)
-VALUE("Coffee");
+INSERT INTO Products(ProductName,UnitPrice)
+VALUE("Coffee",15);
 
 INSERT INTO Suppliers(CompanyName)
 VALUE("EE Coffee PLC");
@@ -14,7 +14,7 @@ JOIN Suppliers
 		ON Products.SupplierID = Suppliers.SupplierID;
 
  UPDATE Products
- SET UnitPrice = 15
+ SET UnitPrice = 15*1.15
  Where ProductID = 78;
  
  SELECT ProductName,UnitPrice
